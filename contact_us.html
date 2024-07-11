@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <a href="/">Home</a>
+      <a href="/services">services</a>
+      <a href="/contact">contact</a>
+    </nav>
+    <!-- ******************** -->
+    <h1 class="titel">Welcome to contact us</h1>
+    <p>You are welcome to our site please fill in the information below</p>
+    <div>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">State</label>
+        <select id="country" name="country">
+          <option value="Lagos">Lagos</option>
+          <option value="Kano">Kano</option>
+          <option value="Abuja">Abuja</option>
+        </select>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
